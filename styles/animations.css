@@ -9,3 +9,47 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+@keyframes heart {
+    from {
+        transform: scale(1);
+    }
+    
+    to {
+        transform: scale(1.25);
+    }
+}
+
+@keyframes sparks {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Анимация для картинок и ссылки */
+
+@keyframes rainbow {
+    from {
+        filter: hue-rotate(0deg);
+  }
+  
+    to {
+        filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes rainbow-animation-text {
+    0% { color: #ff0000; }
+    14% { color: #ff7f00; }
+    28% { color: #ffff00; }
+    42% { color: #00ff00; }
+    57% { color: #0000ff; }
+    71% { color: #4b0082; }
+    85% { color: #9400d3; }
+    100% { color: #ff0000; }
+}
