@@ -12,6 +12,6 @@
         local('inter'),
         url(./Inter-Variable.woff2) format('woff2 supports variations'),
         url(./Inter-Variable.woff2) format('woff2-variations');
-    font-weight: var(--main-font-weight) var(--titel-font-weight);
+    font-weight: 400 785;
     font-display: swap;
 }
